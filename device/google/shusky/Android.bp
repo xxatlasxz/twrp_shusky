@@ -1,0 +1,19 @@
+//
+// Copyright (C) 2024 The Android Open Source Project
+// Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {
+	imports: [
+		"device/google/shusky/pixel-stuff/conf",
+		"device/google/shusky/pixel-stuff/bootctrl/1.2",
+		// "device/google/shusky/pixel-stuff/bootctrl/aidl",
+		"device/google/shusky/pixel-stuff/mm",
+		"device/google/shusky/included-stuff/bootctl",
+		// "device/google/shusky/pixel-stuff/vibrator",
+		// "device/google/shusky/pixel-stuff/vibrator/cs40l26",
+		// "device/google/shusky/pixel-stuff/vibrator/common",
+	],
+}
